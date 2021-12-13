@@ -1,0 +1,14 @@
+C:\Users\Omar\Desktop\clinical inforatics\project\clinical-system\clinical-system\bin\Debug\clinical-system.exe.config
+C:\Users\Omar\Desktop\clinical inforatics\project\clinical-system\clinical-system\bin\Debug\clinical-system.exe
+C:\Users\Omar\Desktop\clinical inforatics\project\clinical-system\clinical-system\bin\Debug\clinical-system.pdb
+C:\Users\Omar\Desktop\clinical inforatics\project\clinical-system\clinical-system\obj\Debug\clinical-system.csproj.AssemblyReference.cache
+C:\Users\Omar\Desktop\clinical inforatics\project\clinical-system\clinical-system\obj\Debug\clinical_system.Properties.Resources.resources
+C:\Users\Omar\Desktop\clinical inforatics\project\clinical-system\clinical-system\obj\Debug\clinical-system.csproj.GenerateResource.cache
+C:\Users\Omar\Desktop\clinical inforatics\project\clinical-system\clinical-system\obj\Debug\clinical-system.csproj.CoreCompileInputs.cache
+C:\Users\Omar\Desktop\clinical inforatics\project\clinical-system\clinical-system\obj\Debug\clinical-system.exe
+C:\Users\Omar\Desktop\clinical inforatics\project\clinical-system\clinical-system\obj\Debug\clinical-system.pdb
+C:\Users\Omar\Desktop\clinical inforatics\project\clinical-system\clinical-system\obj\Debug\clinical_system.AddAppointment.resources
+C:\Users\Omar\Desktop\clinical inforatics\project\clinical-system\clinical-system\obj\Debug\clinical_system.Calendar.resources
+C:\Users\Omar\Desktop\clinical inforatics\project\clinical-system\clinical-system\obj\Debug\clinical_system.OrthopedicUnit.resources
+C:\Users\Omar\Desktop\clinical inforatics\project\clinical-system\clinical-system\obj\Debug\clinical_system.Add_Device.resources
+C:\Users\Omar\Desktop\clinical inforatics\project\clinical-system\clinical-system\obj\Debug\clinical_system.AdminSettings.resources
