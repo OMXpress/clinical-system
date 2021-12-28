@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp1
+﻿namespace clinical_system
 {
     partial class login_page
 

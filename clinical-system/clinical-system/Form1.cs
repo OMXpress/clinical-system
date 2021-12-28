@@ -44,5 +44,31 @@ namespace clinical_system
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Finance f = new Finance(this);
+            f.Show();
+            this.Hide();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            patient_record add = new patient_record(this);
+            add.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            AdminSettings add = new AdminSettings(this);
+            add.Show();
+            this.Hide();
+        }
     }
 }

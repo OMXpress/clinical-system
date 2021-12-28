@@ -12,3 +12,8 @@ C:\Users\Omar\Desktop\clinical inforatics\project\clinical-system\clinical-syste
 C:\Users\Omar\Desktop\clinical inforatics\project\clinical-system\clinical-system\obj\Debug\clinical_system.OrthopedicUnit.resources
 C:\Users\Omar\Desktop\clinical inforatics\project\clinical-system\clinical-system\obj\Debug\clinical_system.Add_Device.resources
 C:\Users\Omar\Desktop\clinical inforatics\project\clinical-system\clinical-system\obj\Debug\clinical_system.AdminSettings.resources
+C:\Users\Omar\Desktop\clinical inforatics\project\clinical-system\clinical-system\obj\Debug\clinical_system.Add_doctor.resources
+C:\Users\Omar\Desktop\clinical inforatics\project\clinical-system\clinical-system\obj\Debug\clinical_system.Form1.resources
+C:\Users\Omar\Desktop\clinical inforatics\project\clinical-system\clinical-system\obj\Debug\clinical_system.Finance.resources
+C:\Users\Omar\Desktop\clinical inforatics\project\clinical-system\clinical-system\obj\Debug\clinical_system.login_page.resources
+C:\Users\Omar\Desktop\clinical inforatics\project\clinical-system\clinical-system\obj\Debug\clinical_system.patient_record.resources

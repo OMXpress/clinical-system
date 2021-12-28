@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace add_doctor_2
+namespace clinical_system
 {
     public partial class Add_doctor : Form
     {
@@ -18,6 +18,11 @@ namespace add_doctor_2
         }
 
         private void textBox16_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Add_doctor_Load(object sender, EventArgs e)
         {
 
         }

@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp2
+﻿namespace clinical_system
 {
     partial class Finance
     {
@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Finance));
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -52,12 +51,12 @@
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
@@ -82,6 +81,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Calendar";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -147,7 +147,6 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(158, 102);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(655, 174);
@@ -157,7 +156,6 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(819, 102);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(642, 174);
@@ -363,9 +361,28 @@
             this.panel2.Size = new System.Drawing.Size(1302, 84);
             this.panel2.TabIndex = 32;
             // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.button7.Location = new System.Drawing.Point(874, 15);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(277, 38);
+            this.button7.TabIndex = 13;
+            this.button7.Text = "Budget";
+            this.button7.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.button3.Location = new System.Drawing.Point(591, 15);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(277, 38);
+            this.button3.TabIndex = 12;
+            this.button3.Text = "Net profits";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(0, 1);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(154, 115);
@@ -399,26 +416,6 @@
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(1246, 26);
             this.textBox11.TabIndex = 36;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
-            this.button3.Location = new System.Drawing.Point(591, 15);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(277, 38);
-            this.button3.TabIndex = 12;
-            this.button3.Text = "Net profits";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
-            this.button7.Location = new System.Drawing.Point(874, 15);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(277, 38);
-            this.button7.TabIndex = 13;
-            this.button7.Text = "Budget";
-            this.button7.UseVisualStyleBackColor = false;
             // 
             // Finance
             // 
