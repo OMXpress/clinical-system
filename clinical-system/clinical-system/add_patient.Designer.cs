@@ -1,5 +1,5 @@
 ﻿
-namespace Add_patient
+namespace clinical_system
 {
     partial class Form1
     {

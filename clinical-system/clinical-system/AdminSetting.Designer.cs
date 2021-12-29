@@ -110,6 +110,7 @@ namespace clinical_system
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(916, 563);
             this.panel3.TabIndex = 2;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // textBox7
             // 
@@ -400,6 +401,7 @@ namespace clinical_system
             this.button1.TabIndex = 0;
             this.button1.Text = "Calendar";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // AdminSettings
             // 
@@ -407,7 +409,7 @@ namespace clinical_system
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1440, 811);
+            this.ClientSize = new System.Drawing.Size(1440, 780);
             this.Controls.Add(this.panel43);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.pictureBox1);
@@ -415,6 +417,7 @@ namespace clinical_system
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AdminSettings";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.AdminSettings_Load);
             this.panel2.ResumeLayout(false);

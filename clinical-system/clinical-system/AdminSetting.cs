@@ -12,9 +12,11 @@ namespace clinical_system
 {
     public partial class AdminSettings : Form
     {
-        public AdminSettings()
+        Calendar form1;
+        public AdminSettings(Calendar AS)
         {
             InitializeComponent();
+            form1 = AS;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -75,6 +77,17 @@ namespace clinical_system
         private void AdminSettings_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            form1.Visible = true;
+            this.Close();
         }
     }
 }

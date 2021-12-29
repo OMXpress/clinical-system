@@ -134,6 +134,7 @@ namespace clinical_system
             this.button1.TabIndex = 0;
             this.button1.Text = "Calendar";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel46
             // 
@@ -259,6 +260,7 @@ namespace clinical_system
             this.button6.TabIndex = 14;
             this.button6.Text = "Confirm";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             this.button6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.button6_MouseClick);
             // 
             // maskedTextBox2

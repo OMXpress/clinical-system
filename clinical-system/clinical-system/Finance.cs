@@ -8,12 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp2
+namespace clinical_system
+
 {
     public partial class Finance : Form
     {
-        public Finance()
+        Calendar form1;
+        public Finance(Calendar f)
         {
+            form1 = f;
             InitializeComponent();
         }
 
@@ -30,6 +33,12 @@ namespace WindowsFormsApp2
         private void button10_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            form1.Visible = true;
+            this.Close();
         }
     }
 }

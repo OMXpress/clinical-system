@@ -1,5 +1,5 @@
 ﻿
-namespace add_doctor_2
+namespace clinical_system
 {
     partial class Add_doctor
 
@@ -472,7 +472,7 @@ namespace add_doctor_2
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1440, 611);
+            this.ClientSize = new System.Drawing.Size(1440, 651);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button3);
@@ -510,6 +510,7 @@ namespace add_doctor_2
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Add New Doctor";
             this.UseWaitCursor = true;
+            this.Load += new System.EventHandler(this.Add_doctor_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
